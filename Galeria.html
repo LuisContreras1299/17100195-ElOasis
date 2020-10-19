@@ -7,13 +7,16 @@
     <title>El Oasis</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/principal.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" href="./index.html">El Oasis</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="./index.html"><img src="imagenes/logo.jpg" width="32" height="32"  alt="logo"/ ></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,10 +50,14 @@
     </div>
     <footer>
         <div class="row">
-            <div class="col-sm-4 " style="font-size:larger;">
-                <a href="http://www.facebook.com">Facebook</a>
-                <a href="http://www.instagram.com">Instagram</a>
-                <a href="http://www.twtter.com">Twtter</a>
+             <div class="col-sm-4 d-flex flex-column" style="font-size:larger;">
+                <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-official"
+                        aria-hidden="true"></i>
+                    Facebook</a>
+                <a href="http://www.instagram.com" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i>
+                    Instagram</a>
+                <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    Twtter</a>
             </div>
             <div class="col-sm-4">
                 <address>
@@ -60,11 +67,11 @@
                     <div>Nuevo Laredo, Tamaulipas, Mexico</div>
                 </address>
             </div>
-            <div class="col-sm-4   align-items-end" style="font-size:larger;">
-                <a href="#">Contactanos</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Menu</a>
-                <a href="#">Galeria</a>
+            <div class="col-sm-4 d-flex flex-column align-items-end" style="font-size:larger;">
+                <a href="./about.html">Nosotros</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./Galeria.html">Galeria</a>
+                <a href="./contacto.html">Contacto</a>
             </div>
         </div>
     </footer>

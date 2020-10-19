@@ -21,3 +21,4 @@ color: #ffffff;
     padding: 2px 5px 2px 5px; 
     margin-top: 15px;
     }
+ #myCarousel.carousel.slide { width: 100%; max-width: 75px; !important }
